@@ -1,6 +1,7 @@
 
 import type { Metadata } from "next";
 
+import QuestionList from "@/app/components/QuestionList";
 interface PageProps {
   params: { categoryId: string; category: string };
 }
@@ -22,6 +23,7 @@ export default function Page({ params }: PageProps) {
   return (
     <h1>
       Blog Post: {categoryId} : {category}
+      <QuestionList categoryId={categoryId} />
     </h1>
   );
 }
