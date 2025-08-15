@@ -1,0 +1,228 @@
+[
+  { "id": 1, "question": "what is react js ?", "isImportant": true },
+  {
+    "id": 2,
+    "question": "what is single-page-application ?",
+    "isImportant": true
+  },
+  {
+    "id": 3,
+    "question": "what is b/w library and framework ?",
+    "isImportant": true
+  },
+  {
+    "id": 4,
+    "question": "advantages and disadvantages of react ?",
+    "isImportant": true
+  },
+  { "id": 5, "question": "what are features of react ?", "isImportant": true },
+  { "id": 6, "question": "what is jsx ?", "isImportant": true },
+  { "id": 7, "question": "what is virtual dom ?", "isImportant": true },
+  { "id": 8, "question": "what is webpack ?", "isImportant": false },
+  { "id": 9, "question": "what is b/w js and jsx ?", "isImportant": false },
+  { "id": 10, "question": "what are events in js ?", "isImportant": false },
+  {
+    "id": 11,
+    "question": "what is b/w dependency and dev dependency in react js ?",
+    "isImportant": false
+  },
+  {
+    "id": 12,
+    "question": "what is dependency injection in react js ?",
+    "isImportant": false
+  },
+  {
+    "id": 13,
+    "question": "what is b/w package.json and package.lock.json ?",
+    "isImportant": false
+  },
+  {
+    "id": 14,
+    "question": "what is b/w function component and class component ?",
+    "isImportant": true
+  },
+  { "id": 15, "question": "what is babel ?", "isImportant": false },
+  { "id": 16, "question": "what is eslint ?", "isImportant": false },
+  { "id": 17, "question": "what is prototype ?", "isImportant": false },
+  { "id": 18, "question": "what is npm ?", "isImportant": false },
+  {
+    "id": 19,
+    "question": "what is b/w props and states ?",
+    "isImportant": true
+  },
+  { "id": 20, "question": "what is hooks?", "isImportant": true },
+  { "id": 21, "question": "what is rules of hooks ?", "isImportant": true },
+  { "id": 22, "question": "what is useState() ?", "isImportant": true },
+  { "id": 23, "question": "what is useEffect() ?", "isImportant": true },
+  { "id": 24, "question": "what is useRef() ?", "isImportant": false },
+  {
+    "id": 25,
+    "question": "what is difference b/w useState() and useRef() ?",
+    "isImportant": false
+  },
+  { "id": 26, "question": "what is useReducer() ?", "isImportant": false },
+  {
+    "id": 27,
+    "question": "what is b/w useState() and useReducer() ?",
+    "isImportant": false
+  },
+  { "id": 28, "question": "what is useContext() ?", "isImportant": false },
+  {
+    "id": 29,
+    "question": "what is b/w props and context() ?",
+    "isImportant": false
+  },
+  {
+    "id": 30,
+    "question": "what is b/w useContext() and redux() ?",
+    "isImportant": false
+  },
+  { "id": 31, "question": "what is useCallback() ?", "isImportant": false },
+  { "id": 32, "question": "what is useMemo() ?", "isImportant": false },
+  { "id": 33, "question": "what is customHook ?", "isImportant": false },
+  { "id": 34, "question": "what is Props drilling ?", "isImportant": false },
+  {
+    "id": 35,
+    "question": "what is Higher Order Components ?",
+    "isImportant": false
+  },
+  {
+    "id": 36,
+    "question": "what is diff b/w custom hook and HOC ?",
+    "isImportant": false
+  },
+  { "id": 37, "question": "what is preventDefault()", "isImportant": false },
+  {
+    "id": 38,
+    "question": "what is conditional Rendering () ?",
+    "isImportant": false
+  },
+  {
+    "id": 39,
+    "question": "what is Logical && Operator ?",
+    "isImportant": false
+  },
+  { "id": 40, "question": "what is Ternary Operator ?", "isImportant": false },
+  { "id": 41, "question": "what is export and import ?", "isImportant": false },
+  { "id": 42, "question": "what is rules of JSX ?", "isImportant": false },
+  { "id": 43, "question": "what is strict mode ?", "isImportant": false },
+  { "id": 44, "question": "what is data binding ?", "isImportant": false },
+  {
+    "id": 45,
+    "question": "what is b/w one way data binding and two way data binding ?",
+    "isImportant": false
+  },
+  { "id": 46, "question": "what is SEO ?", "isImportant": false },
+  { "id": 47, "question": "what is React element ?", "isImportant": true },
+  { "id": 48, "question": "what is React component ?", "isImportant": true },
+  {
+    "id": 49,
+    "question": "what is diff b/w React element and React component ?",
+    "isImportant": true
+  },
+  { "id": 50, "question": "what is Reconciliation ?", "isImportant": false },
+  { "id": 51, "question": "what is React Fibre ?", "isImportant": false },
+  {
+    "id": 52,
+    "question": "What is Rendering and types of rendering in react ?",
+    "isImportant": true
+  },
+  { "id": 53, "question": "What are react lifecycle ?", "isImportant": true },
+  { "id": 54, "question": "what is React DOM ?", "isImportant": false },
+  { "id": 55, "question": "what is API ?", "isImportant": false },
+  {
+    "id": 56,
+    "question": "what is stateful and stateless components ?",
+    "isImportant": true
+  },
+  {
+    "id": 57,
+    "question": "what is controlled and uncontrolled component ?",
+    "isImportant": true
+  },
+  { "id": 58, "question": "what is pure component ?", "isImportant": false },
+  { "id": 59, "question": "what is flux ?", "isImportant": false },
+  { "id": 60, "question": "what is fragment ?", "isImportant": false },
+  { "id": 61, "question": "what is lazy loading ?", "isImportant": false },
+  { "id": 62, "question": "what is side effect ?", "isImportant": false },
+  {
+    "id": 63,
+    "question": "how to optimize react app performance ?",
+    "isImportant": true
+  },
+  {
+    "id": 64,
+    "question": "how to optimize a react code ?",
+    "isImportant": false
+  },
+  { "id": 65, "question": "what is react keys ?", "isImportant": true },
+  {
+    "id": 66,
+    "question": "what is React Architecture ?",
+    "isImportant": false
+  },
+  { "id": 67, "question": "what is React Patterns ?", "isImportant": false },
+  { "id": 68, "question": "what is data persistence ?", "isImportant": false },
+  { "id": 69, "question": "what is state persistence ?", "isImportant": false },
+  {
+    "id": 70,
+    "question": "what is diff b/w event bubbling and event capturing ?",
+    "isImportant": false
+  },
+  { "id": 71, "question": "what is stopPropagation() ?", "isImportant": false },
+  {
+    "id": 72,
+    "question": "what is events and rules of react events ?",
+    "isImportant": false
+  },
+  { "id": 73, "question": "what is synthetic events ?", "isImportant": false },
+  { "id": 74, "question": "what is MVC ?", "isImportant": false },
+  {
+    "id": 75,
+    "question": "what is building blocks of react ?",
+    "isImportant": false
+  },
+  { "id": 76, "question": "How do browser read jsx ?", "isImportant": false },
+  {
+    "id": 77,
+    "question": "what are ERRORS in react js ?",
+    "isImportant": false
+  },
+  { "id": 78, "question": "what is error boundaries ?", "isImportant": false },
+  { "id": 79, "question": "what is hydration ?", "isImportant": false },
+  {
+    "id": 80,
+    "question": "what is dangerouslySetInnerHTML ?",
+    "isImportant": false
+  },
+  { "id": 81, "question": "what is semantic version ?", "isImportant": false },
+  {
+    "id": 82,
+    "question": "What happen When We Access Web Page ?",
+    "isImportant": false
+  },
+  {
+    "id": 83,
+    "question": "what is diff b/w react 17 and 18 and 19 ?",
+    "isImportant": false
+  },
+  {
+    "id": 84,
+    "question": "what is React developer tool ?",
+    "isImportant": false
+  },
+  { "id": 85, "question": "how to work react router ?", "isImportant": true },
+  { "id": 86, "question": "how to test react ?", "isImportant": false },
+  { "id": 87, "question": "how to work forms in react ?", "isImportant": true },
+  {
+    "id": 88,
+    "question": "what is diff b/w throttle and debounce ?",
+    "isImportant": false
+  },
+  { "id": 89, "question": "what is memory leakage ?", "isImportant": false },
+  {
+    "id": 90,
+    "question": "The Difference Between ^ and ~ in Dependencies :",
+    "isImportant": false
+  }
+]

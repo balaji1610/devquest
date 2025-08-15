@@ -1,0 +1,68 @@
+[
+  { "id": 1, "question": "What is HTML?", "isimportant": true },
+  {
+    "id": 2,
+    "question": "What is the difference between HTML and HTML5?",
+    "isimportant": true
+  },
+  { "id": 3, "question": "What are semantic elements?", "isimportant": true },
+  { "id": 4, "question": "What is a meta tag?", "isimportant": true },
+  {
+    "id": 5,
+    "question": "What are block and inline elements?",
+    "isimportant": true
+  },
+  {
+    "id": 6,
+    "question": "What are HTML elements and empty elements?",
+    "isimportant": true
+  },
+  {
+    "id": 7,
+    "question": "What are attributes and types of attributes?",
+    "isimportant": true
+  },
+  { "id": 8, "question": "Is HTML case sensitive?", "isimportant": false },
+  {
+    "id": 9,
+    "question": "What are text format tags in HTML?",
+    "isimportant": true
+  },
+  {
+    "id": 10,
+    "question": "What are quotation and citation elements?",
+    "isimportant": false
+  },
+  {
+    "id": 11,
+    "question": "What are types of color in HTML?",
+    "isimportant": false
+  },
+  { "id": 12, "question": "What is div?", "isimportant": true },
+  { "id": 13, "question": "What is id and class?", "isimportant": true },
+  { "id": 14, "question": "What is iframe?", "isimportant": false },
+  {
+    "id": 15,
+    "question": "What are entities, ASCII, and UTF-8?",
+    "isimportant": true
+  },
+  { "id": 16, "question": "What is XHTML?", "isimportant": true },
+  {
+    "id": 17,
+    "question": "What is the difference between HTML and XHTML?",
+    "isimportant": true
+  },
+  { "id": 18, "question": "What are form tags in HTML?", "isimportant": true },
+  {
+    "id": 19,
+    "question": "What are input types in HTML?",
+    "isimportant": true
+  },
+  { "id": 20, "question": "What is canvas?", "isimportant": true },
+  { "id": 21, "question": "What is SVG?", "isimportant": true },
+  {
+    "id": 22,
+    "question": "What is the difference between SVG and canvas?",
+    "isimportant": true
+  }
+]

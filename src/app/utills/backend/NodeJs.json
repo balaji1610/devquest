@@ -1,0 +1,91 @@
+[
+  { "id": 1, "question": "What is Node.js?", "isImportant": true },
+  { "id": 2, "question": "Why use Node.js?", "isImportant": true },
+  { "id": 3, "question": "What is Node.js Modules?", "isImportant": true },
+  { "id": 4, "question": "Types of Node.js modules?", "isImportant": true },
+  {
+    "id": 5,
+    "question": "How do modules work in Node.js?",
+    "isImportant": true
+  },
+  { "id": 6, "question": "Why use modules?", "isImportant": true },
+  {
+    "id": 7,
+    "question": "What are common built-in modules?",
+    "isImportant": true
+  },
+  {
+    "id": 8,
+    "question": "What are commonly used external modules?",
+    "isImportant": true
+  },
+  { "id": 9, "question": "What is HTTP module?", "isImportant": true },
+  { "id": 10, "question": "What is req and res?", "isImportant": true },
+  {
+    "id": 11,
+    "question": "What is the difference between HTTP and HTTPS?",
+    "isImportant": true
+  },
+  { "id": 12, "question": "What is FS module?", "isImportant": true },
+  { "id": 13, "question": "What is Path module?", "isImportant": false },
+  { "id": 14, "question": "What is URL module?", "isImportant": false },
+  {
+    "id": 15,
+    "question": "What are key features of Node.js?",
+    "isImportant": true
+  },
+  { "id": 16, "question": "How does Node.js work?", "isImportant": true },
+  { "id": 17, "question": "What is Event Loop?", "isImportant": true },
+  {
+    "id": 18,
+    "question": "What is the difference between Node.js and JavaScript?",
+    "isImportant": true
+  },
+  {
+    "id": 19,
+    "question": "What is synchronous and asynchronous?",
+    "isImportant": true
+  },
+  { "id": 20, "question": "What is the use of npm?", "isImportant": true },
+  {
+    "id": 21,
+    "question": "What are global objects in Node.js?",
+    "isImportant": false
+  },
+  { "id": 22, "question": "What is call function?", "isImportant": false },
+  {
+    "id": 23,
+    "question": "What is the difference between require and import?",
+    "isImportant": true
+  },
+  {
+    "id": 24,
+    "question": "What is event-driven architecture?",
+    "isImportant": true
+  },
+  {
+    "id": 25,
+    "question": "What are timing mechanisms in Node.js?",
+    "isImportant": false
+  },
+  { "id": 26, "question": "What is thread pool?", "isImportant": false },
+  { "id": 27, "question": "What is libuv?", "isImportant": false },
+  { "id": 28, "question": "What is buffer?", "isImportant": false },
+  { "id": 29, "question": "What is streams?", "isImportant": true },
+  {
+    "id": 30,
+    "question": "What is the difference between buffer and stream?",
+    "isImportant": true
+  },
+  {
+    "id": 31,
+    "question": "How to handle exceptions in Node.js?",
+    "isImportant": true
+  },
+  { "id": 32, "question": "What is JWT?", "isImportant": true },
+  {
+    "id": 33,
+    "question": "What is authentication and authorization?",
+    "isImportant": true
+  }
+]
