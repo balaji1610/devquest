@@ -12,8 +12,6 @@ export default function QuestionSelection(props: {
 }) {
   const [tabIndex, setTabIndex] = useState<number>(0);
 
-
-
   const dispatch = useDispatch();
 
   useEffect(() => {

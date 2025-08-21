@@ -2,11 +2,7 @@
 import ApplicationData from "@/app/utills/applicationData";
 
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import {
-  IcategoryType,
-  IquestionsType,
-  IapplicationType,
-} from "@/app/interface/interface";
+import { IcategoryType } from "@/app/interface/interface";
 
 const Category: IcategoryType = {
   currentcategory: "Javascript",

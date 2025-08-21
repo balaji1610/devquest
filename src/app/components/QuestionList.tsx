@@ -4,13 +4,13 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 
 import { useSelector } from "react-redux";
-import { IcategoryType, IquestionsType } from "@/app/interface/interface";
+import { IcategoryType } from "@/app/interface/interface";
 
 export default function QuestionList() {
   const { currentQuestions } = useSelector(
     (state: { Category: IcategoryType }) => state.Category
   );
-  console.log(currentQuestions);
+
   return (
     <div>
       {currentQuestions.length > 0 &&
