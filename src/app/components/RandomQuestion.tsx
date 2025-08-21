@@ -5,7 +5,7 @@ import { IcategoryType } from "@/app/interface/interface";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-
+import { GoStarFill } from "react-icons/go";
 export default function RandomQuestion() {
   const { currentQuestions } = useSelector(
     (state: { Category: IcategoryType }) => state.Category
@@ -59,6 +59,15 @@ export default function RandomQuestion() {
               <Box>{pickQuestion.id}</Box>
 
               <Box>{pickQuestion.question}</Box>
+              <Box>
+                {pickQuestion.isImportant ? (
+                  <>
+                    <GoStarFill color="#FFEB3B" />
+                  </>
+                ) : (
+                  ""
+                )}
+              </Box>
             </Stack>
           </Box>
         ) : (
