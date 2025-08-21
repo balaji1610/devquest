@@ -37,6 +37,7 @@ export default function Home() {
               margin: "20px",
               cursor: "pointer",
             }}
+            onClick={() => router.push(`${name}/${categoryId}`)}
           >
             {" "}
             <CardContent>
@@ -51,11 +52,6 @@ export default function Home() {
               </Stack>
               <h1>Q-{questions.length}</h1>
             </CardContent>
-            <CardActions>
-              <button onClick={() => router.push(`${name}/${categoryId}`)}>
-                View
-              </button>
-            </CardActions>
           </Card>
         );
       })}
