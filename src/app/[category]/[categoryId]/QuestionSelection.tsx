@@ -4,8 +4,10 @@ import Tab from "@mui/material/Tab";
 import AppBar from "@mui/material/AppBar";
 import { useEffect, useState } from "react";
 import QuestionList from "@/app/components/QuestionList";
+import RandomQuestion from "@/app/components/RandomQuestion";
 import { getCategory } from "@/app/store/slice/applicationSlice";
 import { useDispatch } from "react-redux";
+
 export default function QuestionSelection(props: {
   category: string;
   categoryId: string;
@@ -53,7 +55,7 @@ export default function QuestionSelection(props: {
         </div>
       </div>
 
-      {tabIndex == 0 ? " " : <QuestionList />}
+      {tabIndex == 0 ? <RandomQuestion /> : <QuestionList />}
     </div>
   );
 }

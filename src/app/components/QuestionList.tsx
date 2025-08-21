@@ -6,6 +6,7 @@ import Stack from "@mui/material/Stack";
 import { useSelector } from "react-redux";
 import { IcategoryType } from "@/app/interface/interface";
 import Grid from "@mui/material/Grid";
+import { GoStarFill } from "react-icons/go";
 
 export default function QuestionList() {
   const { currentQuestions } = useSelector(
@@ -28,7 +29,7 @@ export default function QuestionList() {
         <Grid size={{ xs: 12, sm: 8 }}>
           {currentQuestions.length > 0 &&
             currentQuestions.flatMap((el) => {
-              const { id, question } = el;
+              const { id, question, isImportant } = el;
               return (
                 <Box
                   sx={{
@@ -48,6 +49,15 @@ export default function QuestionList() {
                     <Box>{id}</Box>
 
                     <Box>{question}</Box>
+                    <Box>
+                      {isImportant ? (
+                        <>
+                          <GoStarFill color="#FFEB3B" />
+                        </>
+                      ) : (
+                        ""
+                      )}
+                    </Box>
                   </Stack>
                 </Box>
               );
