@@ -42,7 +42,7 @@ const ApplicationData = [
   {
     category: "Back-End",
     categoryId: "b001",
-    name: "Node JS",
+    name: "NodeJS",
     questions: NodeJs,
   },
   {
