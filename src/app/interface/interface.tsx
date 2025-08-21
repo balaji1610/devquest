@@ -1,12 +1,22 @@
 export interface IquestionsType {
   id: string;
   question: string;
-  isimportant: boolean;
+  isImportant: boolean;
 }
 
 export interface IapplicationType {
-  category: string;
+  category: string
   categoryId: string;
   name: string;
   questions: IquestionsType[];
+}
+
+export interface IPagePropsType {
+  params: { categoryId: string; category: string};
+}
+
+export interface IcategoryType {
+  currentcategory: string;
+  currentcategoryId: string;
+  currentQuestions: IquestionsType[];
 }

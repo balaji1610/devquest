@@ -1,29 +1,24 @@
-
+import QuestionSelection from "./QuestionSelection";
 import type { Metadata } from "next";
-
-import QuestionList from "@/app/components/QuestionList";
-interface PageProps {
-  params: { categoryId: string; category: string };
-}
+import { IPagePropsType } from "@/app/interface/interface";
+import { getCategoryMetadata } from "@/app/utills/metadata";
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
-  const { categoryId, category } = params;
-
-  return {
-    title: `${category} | Interview Questions`,
-    description: `Learn more about ${category} with ID ${categoryId}`,
-  };
+}: IPagePropsType): Promise<Metadata> {
+  return getCategoryMetadata(params.category, params.categoryId);
 }
-
-export default function Page({ params }: PageProps) {
-  const { categoryId, category } = params;
-
+export default function Page({ params }: IPagePropsType) {
   return (
-    <h1>
-      Blog Post: {categoryId} : {category}
-      <QuestionList categoryId={categoryId} />
-    </h1>
+    <div>
+      <h1 style={{ textAlign: "center" }}>{params.category}</h1>
+      <h1 style={{ textAlign: "center" }}>{params.categoryId}</h1>
+      <h1>
+        <QuestionSelection
+          category={params.category}
+          categoryId={params.categoryId}
+        />
+      </h1>
+    </div>
   );
 }
