@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import { GoStarFill } from "react-icons/go";
 export default function RandomQuestion() {
+  
   const { currentQuestions } = useSelector(
     (state: { Category: IcategoryType }) => state.Category
   );
