@@ -67,7 +67,6 @@ export default function Home() {
             <CardContent>
               <Stack direction="row" spacing={2}>
                 <Box>
-                  {/* <img src={getImageId[categoryId]} alt={name} /> */}
                   <Image
                     src={getImageId[categoryId as keyof ImageMap]}
                     alt="HTML Logo"
