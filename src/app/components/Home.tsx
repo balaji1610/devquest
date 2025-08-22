@@ -41,7 +41,7 @@ export default function Home() {
             {" "}
             <CardContent>
               <Stack direction="row" spacing={2}>
-                <Box>ICON</Box>
+                <Box>ICON@2</Box>
                 <Box>
                   {" "}
                   <Typography sx={{ color: "success", fontSize: 14 }}>
