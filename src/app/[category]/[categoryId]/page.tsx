@@ -3,11 +3,13 @@ import type { Metadata } from "next";
 import {getCategoryMetadata} from "@/app/utills/metadata"
 import { IPagePropsType } from "@/app/interface/interface";
 import QuestionTitle from "@/app/components/QuestionTitle";
+
 export async function generateMetadata({
   params,
 }: IPagePropsType): Promise<Metadata> {
   return getCategoryMetadata(params.category, params.categoryId);
 }
+
 export default function Page({ params }: IPagePropsType) {
   return (
     <div>

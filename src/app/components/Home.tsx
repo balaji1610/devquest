@@ -1,6 +1,5 @@
 "use client";
 import Card from "@mui/material/Card";
-
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { useSelector } from "react-redux";
@@ -88,15 +87,20 @@ export default function Home() {
               >
                 {" "}
                 <Typography
-                  variant="caption"
+                  variant="h6"
                   gutterBottom
                   sx={{ display: "block" }}
+                  color="#757575"
                 >
                   Q - {questions.length}
                 </Typography>
               </Box>
               <Stack direction="row" spacing={2}>
-                <Box>{category}</Box>
+                <Box>
+                  <Typography variant="h6" color="#757575">
+                    {category}
+                  </Typography>
+                </Box>
               </Stack>
             </CardContent>
           </Card>
