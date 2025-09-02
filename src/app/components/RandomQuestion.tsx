@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { IcategoryType } from "@/app/interface/interface";

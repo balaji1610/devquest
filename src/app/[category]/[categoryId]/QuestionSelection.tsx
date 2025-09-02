@@ -18,7 +18,7 @@ export default function QuestionSelection(props: {
 
   useEffect(() => {
     dispatch(getCategory(props));
-  }, []);
+  }, [dispatch, props]);
 
   const handleOnTabChange = (event: React.SyntheticEvent, newValue: number) => {
     setTabIndex(newValue);

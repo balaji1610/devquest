@@ -1,21 +1,27 @@
 import QuestionSelection from "./QuestionSelection";
-import type { Metadata } from "next";
-import {getCategoryMetadata} from "@/app/utills/metadata"
-import { IPagePropsType } from "@/app/interface/interface";
 import QuestionTitle from "@/app/components/QuestionTitle";
+import { getCategoryMetadata } from "@/app/utills/metadata";
+import type { Metadata } from "next";
+
+interface PageProps {
+  params: Promise<{ category: string; categoryId: string }>;
+}
 export async function generateMetadata({
   params,
-}: IPagePropsType): Promise<Metadata> {
-  return getCategoryMetadata(params.category, params.categoryId);
+}: PageProps): Promise<Metadata> {
+  return getCategoryMetadata(
+    (await params).category,
+    (await params).categoryId
+  );
 }
-export default function Page({ params }: IPagePropsType) {
+export default async function Page({ params }: PageProps) {
   return (
     <div>
-      <QuestionTitle category={params.category} />
+      <QuestionTitle category={(await params).category} />
       <div style={{ marginTop: "5rem" }}>
         <QuestionSelection
-          category={params.category}
-          categoryId={params.categoryId}
+          category={(await params).category}
+          categoryId={(await params).categoryId}
         />
       </div>
     </div>

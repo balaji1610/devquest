@@ -5,14 +5,14 @@ export interface IquestionsType {
 }
 
 export interface IapplicationType {
-  category: string
+  category: string;
   categoryId: string;
   name: string;
   questions: IquestionsType[];
 }
 
 export interface IPagePropsType {
-  params: { categoryId: string; category: string};
+  params: { category: string; categoryId: string };
 }
 
 export interface IcategoryType {
