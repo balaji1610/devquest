@@ -46,7 +46,6 @@ export default function Home() {
         flexWrap: "wrap",
       }}
     >
-      <h1>Hello</h1>
       {getCategoryData.map((el) => {
         const { category, categoryId, name, questions } = el;
         return (
