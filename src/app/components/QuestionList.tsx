@@ -27,7 +27,14 @@ export default function QuestionList() {
       >
         <Grid size={{ xs: 12, sm: 2 }}></Grid>
         <Grid size={{ xs: 12, sm: 8 }}>
-          <Box>
+          <Box
+            sx={{
+              border: "2px solid #A8BBA3",
+              height: "25rem",
+              overflowY: "auto",
+              marginTop: "10px",
+            }}
+          >
             {" "}
             {currentQuestions.length > 0 &&
               currentQuestions.flatMap((el) => {

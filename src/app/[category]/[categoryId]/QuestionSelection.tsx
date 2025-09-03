@@ -31,6 +31,7 @@ export default function QuestionSelection(props: {
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
+
           width: "auto",
         }}
       >

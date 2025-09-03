@@ -18,7 +18,7 @@ export default async function Page({ params }: PageProps) {
   return (
     <div>
       <QuestionTitle category={(await params).category} />
-      <div style={{ marginTop: "5rem" }}>
+      <div style={{ marginTop: "1rem" }}>
         <QuestionSelection
           category={(await params).category}
           categoryId={(await params).categoryId}
