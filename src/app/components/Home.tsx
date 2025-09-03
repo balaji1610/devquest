@@ -23,6 +23,7 @@ export default function Home() {
     ui004: string;
     ui005: string;
     b001: string;
+    b002: string;
     db001: string;
   }
   const getImageId: ImageMap = {
@@ -32,6 +33,7 @@ export default function Home() {
     ui004: "/react.png",
     ui005: "/redux.png",
     b001: "/node-js.png",
+    b002: "/java.png",
     db001: "/mysql.png",
   };
 

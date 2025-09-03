@@ -5,7 +5,7 @@ import React from "@/app/utills/frontend/React.json";
 import Redux from "@/app/utills/frontend/Redux.json";
 
 import NodeJs from "@/app/utills/backend/NodeJs.json";
-
+import Java from "@/app/utills/backend/Java.json";
 import Mysql from "@/app/utills/database/mysql.json";
 
 const ApplicationData = [
@@ -44,6 +44,12 @@ const ApplicationData = [
     categoryId: "b001",
     name: "NodeJS",
     questions: NodeJs,
+  },
+  {
+    category: "Back-End",
+    categoryId: "b002",
+    name: "Java",
+    questions: Java,
   },
   {
     category: "Database",

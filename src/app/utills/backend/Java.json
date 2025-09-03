@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "question": "What are the main features of Java?",
+    "isImportant": false
+  },
+  {
+    "id": 2,
+    "question": "Difference between JDK, JRE, and JVM?",
+    "isImportant": false
+  },
+  {
+    "id": 3,
+    "question": "What is bytecode in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 4,
+    "question": "Is Java platform-independent? Why?",
+    "isImportant": false
+  },
+  {
+    "id": 5,
+    "question": "Explain 'Write Once, Run Anywhere' principle.",
+    "isImportant": false
+  },
+  {
+    "id": 6,
+    "question": "What is the role of JVM?",
+    "isImportant": false
+  },
+  {
+    "id": 7,
+    "question": "What is classpath in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 8,
+    "question": "What are identifiers in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 9,
+    "question": "What is type casting in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 10,
+    "question": "Difference between widening and narrowing casting?",
+    "isImportant": false
+  },
+  {
+    "id": 11,
+    "question": "What is a variable in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 12,
+    "question": "Difference between local, instance, and static variables?",
+    "isImportant": false
+  },
+  {
+    "id": 13,
+    "question": "What are literals in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 14,
+    "question": "Difference between var, int, and Integer?",
+    "isImportant": false
+  },
+  {
+    "id": 15,
+    "question": "What is the var keyword in Java 10?",
+    "isImportant": false
+  },
+  {
+    "id": 16,
+    "question": "Explain Encapsulation with example.",
+    "isImportant": false
+  },
+  {
+    "id": 17,
+    "question": "What is Inheritance in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 18,
+    "question": "What is Polymorphism in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 19,
+    "question": "Explain Abstraction in Java.",
+    "isImportant": false
+  },
+  {
+    "id": 20,
+    "question": "Difference between abstract class and interface?",
+    "isImportant": false
+  },
+  {
+    "id": 21,
+    "question": "Can we create an object of abstract class?",
+    "isImportant": false
+  },
+  {
+    "id": 22,
+    "question": "Can an interface extend multiple interfaces?",
+    "isImportant": false
+  },
+  {
+    "id": 23,
+    "question": "Can a class implement multiple interfaces?",
+    "isImportant": false
+  },
+  {
+    "id": 24,
+    "question": "What is multiple inheritance issue in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 25,
+    "question": "Explain diamond problem.",
+    "isImportant": false
+  },
+  {
+    "id": 26,
+    "question": "What is super keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 27,
+    "question": "What is this keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 28,
+    "question": "Difference between constructor and method?",
+    "isImportant": false
+  },
+  {
+    "id": 29,
+    "question": "Can a constructor be private?",
+    "isImportant": false
+  },
+  {
+    "id": 30,
+    "question": "What is a Singleton class?",
+    "isImportant": false
+  },
+  {
+    "id": 31,
+    "question": "How do you implement Singleton in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 32,
+    "question": "What is a copy constructor?",
+    "isImportant": false
+  },
+  {
+    "id": 33,
+    "question": "What are default constructors?",
+    "isImportant": false
+  },
+  {
+    "id": 34,
+    "question": "Can we override a constructor?",
+    "isImportant": false
+  },
+  {
+    "id": 35,
+    "question": "Can we inherit constructors?",
+    "isImportant": false
+  },
+  {
+    "id": 36,
+    "question": "Can abstract classes have constructors?",
+    "isImportant": false
+  },
+  {
+    "id": 37,
+    "question": "What is a static block?",
+    "isImportant": false
+  },
+  {
+    "id": 38,
+    "question": "What is an inner class?",
+    "isImportant": false
+  },
+  {
+    "id": 39,
+    "question": "Difference between static and non-static nested classes?",
+    "isImportant": false
+  },
+  {
+    "id": 40,
+    "question": "What is an anonymous inner class?",
+    "isImportant": false
+  },
+  {
+    "id": 41,
+    "question": "What are primitive data types in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 42,
+    "question": "What are wrapper classes in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 43,
+    "question": "Difference between primitive and wrapper?",
+    "isImportant": false
+  },
+  {
+    "id": 44,
+    "question": "What is autoboxing and unboxing?",
+    "isImportant": false
+  },
+  {
+    "id": 45,
+    "question": "What is String immutability?",
+    "isImportant": false
+  },
+  {
+    "id": 46,
+    "question": "Why is String immutable?",
+    "isImportant": false
+  },
+  {
+    "id": 47,
+    "question": "What is String Pool?",
+    "isImportant": false
+  },
+  {
+    "id": 48,
+    "question": "What is String Interning?",
+    "isImportant": false
+  },
+  {
+    "id": 49,
+    "question": "Difference between == and .equals() in String?",
+    "isImportant": false
+  },
+  {
+    "id": 50,
+    "question": "Difference between StringBuilder and StringBuffer?",
+    "isImportant": false
+  },
+  {
+    "id": 51,
+    "question": "How to make an immutable class in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 52,
+    "question": "Can we change value of final String?",
+    "isImportant": false
+  },
+  {
+    "id": 53,
+    "question": "Difference between concat() and + operator in Strings?",
+    "isImportant": false
+  },
+  {
+    "id": 54,
+    "question": "What is intern() method in String?",
+    "isImportant": false
+  },
+  {
+    "id": 55,
+    "question": "Difference between substring() in Java 7 and Java 8?",
+    "isImportant": false
+  },
+  {
+    "id": 56,
+    "question": "What are access modifiers in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 57,
+    "question": "Difference between default, private, protected, public?",
+    "isImportant": false
+  },
+  {
+    "id": 58,
+    "question": "What is final keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 59,
+    "question": "What is static keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 60,
+    "question": "Difference between static method and instance method?",
+    "isImportant": false
+  },
+  {
+    "id": 61,
+    "question": "What is volatile keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 62,
+    "question": "What is transient keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 63,
+    "question": "Difference between transient and volatile?",
+    "isImportant": false
+  },
+  {
+    "id": 64,
+    "question": "What is synchronized keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 65,
+    "question": "Difference between final, finally, and finalize()?",
+    "isImportant": false
+  },
+  {
+    "id": 66,
+    "question": "What is strictfp keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 67,
+    "question": "What is native keyword?",
+    "isImportant": false
+  },
+  {
+    "id": 68,
+    "question": "What is assert keyword in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 69,
+    "question": "Difference between while and do-while?",
+    "isImportant": false
+  },
+  {
+    "id": 70,
+    "question": "Difference between for and enhanced for loop?",
+    "isImportant": false
+  },
+  {
+    "id": 71,
+    "question": "What is infinite loop in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 72,
+    "question": "Difference between break, continue, and return?",
+    "isImportant": false
+  },
+  {
+    "id": 73,
+    "question": "What is a switch statement?",
+    "isImportant": false
+  },
+  {
+    "id": 74,
+    "question": "Difference between switch in Java 7 and Java 12?",
+    "isImportant": false
+  },
+  {
+    "id": 75,
+    "question": "Can we use String in switch?",
+    "isImportant": false
+  },
+  {
+    "id": 76,
+    "question": "Can we use enum in switch?",
+    "isImportant": false
+  },
+  {
+    "id": 77,
+    "question": "What is Exception in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 78,
+    "question": "Difference between checked and unchecked exceptions?",
+    "isImportant": false
+  },
+  {
+    "id": 79,
+    "question": "Difference between Error and Exception?",
+    "isImportant": false
+  },
+  {
+    "id": 80,
+    "question": "What is Throwable in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 81,
+    "question": "What is try-catch-finally block?",
+    "isImportant": false
+  },
+  {
+    "id": 82,
+    "question": "Difference between throw and throws?",
+    "isImportant": false
+  },
+  {
+    "id": 83,
+    "question": "Can we use multiple catch blocks?",
+    "isImportant": false
+  },
+  {
+    "id": 84,
+    "question": "Can we rethrow an exception?",
+    "isImportant": false
+  },
+  {
+    "id": 85,
+    "question": "What is try-with-resources?",
+    "isImportant": false
+  },
+  {
+    "id": 86,
+    "question": "What is custom exception?",
+    "isImportant": false
+  },
+  {
+    "id": 87,
+    "question": "What is NullPointerException?",
+    "isImportant": false
+  },
+  {
+    "id": 88,
+    "question": "Difference between ClassNotFoundException and NoClassDefFoundError?",
+    "isImportant": false
+  },
+  {
+    "id": 89,
+    "question": "What is StackOverflowError?",
+    "isImportant": false
+  },
+  {
+    "id": 90,
+    "question": "What is OutOfMemoryError?",
+    "isImportant": false
+  },
+  {
+    "id": 91,
+    "question": "What is Collection in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 92,
+    "question": "Difference between Collection and Collections?",
+    "isImportant": false
+  },
+  {
+    "id": 93,
+    "question": "Difference between List, Set, and Map?",
+    "isImportant": false
+  },
+  {
+    "id": 94,
+    "question": "Difference between ArrayList and LinkedList?",
+    "isImportant": false
+  },
+  {
+    "id": 95,
+    "question": "Difference between HashSet and TreeSet?",
+    "isImportant": false
+  },
+  {
+    "id": 96,
+    "question": "Difference between HashMap and Hashtable?",
+    "isImportant": false
+  },
+  {
+    "id": 97,
+    "question": "Difference between HashMap and ConcurrentHashMap?",
+    "isImportant": false
+  },
+  {
+    "id": 98,
+    "question": "Difference between HashMap and LinkedHashMap?",
+    "isImportant": false
+  },
+  {
+    "id": 99,
+    "question": "What is load factor in HashMap?",
+    "isImportant": false
+  },
+  {
+    "id": 100,
+    "question": "How does HashMap handle collisions?",
+    "isImportant": false
+  },
+  {
+    "id": 101,
+    "question": "Difference between fail-fast and fail-safe iterator?",
+    "isImportant": false
+  },
+  {
+    "id": 102,
+    "question": "Difference between Iterator and ListIterator?",
+    "isImportant": false
+  },
+  {
+    "id": 103,
+    "question": "What is ConcurrentModificationException?",
+    "isImportant": false
+  },
+  {
+    "id": 104,
+    "question": "Difference between Comparable and Comparator?",
+    "isImportant": false
+  },
+  {
+    "id": 105,
+    "question": "What is PriorityQueue?",
+    "isImportant": false
+  },
+  {
+    "id": 106,
+    "question": "What is WeakHashMap?",
+    "isImportant": false
+  },
+  {
+    "id": 107,
+    "question": "Difference between shallow copy and deep copy?",
+    "isImportant": false
+  },
+  {
+    "id": 108,
+    "question": "What is Arrays.asList() behavior?",
+    "isImportant": false
+  },
+  {
+    "id": 109,
+    "question": "What is immutable collection?",
+    "isImportant": false
+  },
+  {
+    "id": 110,
+    "question": "How to make a collection thread-safe?",
+    "isImportant": false
+  },
+  {
+    "id": 111,
+    "question": "What is thread in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 112,
+    "question": "Difference between process and thread?",
+    "isImportant": false
+  },
+  {
+    "id": 113,
+    "question": "Explain Thread lifecycle.",
+    "isImportant": false
+  },
+  {
+    "id": 114,
+    "question": "Difference between Runnable and Callable?",
+    "isImportant": false
+  },
+  {
+    "id": 115,
+    "question": "What is Future in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 116,
+    "question": "What is CompletableFuture?",
+    "isImportant": false
+  },
+  {
+    "id": 117,
+    "question": "What are daemon threads?",
+    "isImportant": false
+  },
+  {
+    "id": 118,
+    "question": "What is thread deadlock?",
+    "isImportant": false
+  },
+  {
+    "id": 119,
+    "question": "What is livelock?",
+    "isImportant": false
+  },
+  {
+    "id": 120,
+    "question": "What is starvation?",
+    "isImportant": false
+  },
+  {
+    "id": 121,
+    "question": "Difference between synchronized method and block?",
+    "isImportant": false
+  },
+  {
+    "id": 122,
+    "question": "What is volatile variable?",
+    "isImportant": false
+  },
+  {
+    "id": 123,
+    "question": "Difference between wait(), notify(), notifyAll()?",
+    "isImportant": false
+  },
+  {
+    "id": 124,
+    "question": "What is ThreadLocal?",
+    "isImportant": false
+  },
+  {
+    "id": 125,
+    "question": "What is Executor framework?",
+    "isImportant": false
+  },
+  {
+    "id": 126,
+    "question": "Difference between Executor, ExecutorService, and ScheduledExecutorService?",
+    "isImportant": false
+  },
+  {
+    "id": 127,
+    "question": "What is ForkJoin framework?",
+    "isImportant": false
+  },
+  {
+    "id": 128,
+    "question": "Difference between parallelism and concurrency?",
+    "isImportant": false
+  },
+  {
+    "id": 129,
+    "question": "What is ReentrantLock?",
+    "isImportant": false
+  },
+  {
+    "id": 130,
+    "question": "What is ReadWriteLock?",
+    "isImportant": false
+  },
+  {
+    "id": 131,
+    "question": "Difference between synchronized and Lock?",
+    "isImportant": false
+  },
+  {
+    "id": 132,
+    "question": "What are functional interfaces?",
+    "isImportant": false
+  },
+  {
+    "id": 133,
+    "question": "What is @FunctionalInterface?",
+    "isImportant": false
+  },
+  {
+    "id": 134,
+    "question": "What is lambda expression?",
+    "isImportant": false
+  },
+  {
+    "id": 135,
+    "question": "Difference between lambda and anonymous inner class?",
+    "isImportant": false
+  },
+  {
+    "id": 136,
+    "question": "What is Stream API?",
+    "isImportant": false
+  },
+  {
+    "id": 137,
+    "question": "Difference between intermediate and terminal operations in Stream?",
+    "isImportant": false
+  },
+  {
+    "id": 138,
+    "question": "What is map() vs flatMap()?",
+    "isImportant": false
+  },
+  {
+    "id": 139,
+    "question": "Difference between parallelStream() and stream()?",
+    "isImportant": false
+  },
+  {
+    "id": 140,
+    "question": "What is filter(), reduce(), collect()?",
+    "isImportant": false
+  },
+  {
+    "id": 141,
+    "question": "What are method references?",
+    "isImportant": false
+  },
+  {
+    "id": 142,
+    "question": "Difference between Predicate, Function, Supplier, Consumer?",
+    "isImportant": false
+  },
+  {
+    "id": 143,
+    "question": "What are default and static methods in interfaces?",
+    "isImportant": false
+  },
+  {
+    "id": 144,
+    "question": "What is Optional class?",
+    "isImportant": false
+  },
+  {
+    "id": 145,
+    "question": "What is Date and Time API (Java 8)?",
+    "isImportant": false
+  },
+  {
+    "id": 146,
+    "question": "Difference between LocalDate, LocalDateTime, ZonedDateTime?",
+    "isImportant": false
+  },
+  {
+    "id": 147,
+    "question": "Explain JVM architecture.",
+    "isImportant": false
+  },
+  {
+    "id": 148,
+    "question": "What is classloader?",
+    "isImportant": false
+  },
+  {
+    "id": 149,
+    "question": "What are types of classloaders?",
+    "isImportant": false
+  },
+  {
+    "id": 150,
+    "question": "Difference between bootstrap, extension, application classloader?",
+    "isImportant": false
+  },
+  {
+    "id": 151,
+    "question": "What is JIT compiler?",
+    "isImportant": false
+  },
+  {
+    "id": 152,
+    "question": "What is bytecode verification?",
+    "isImportant": false
+  },
+  {
+    "id": 153,
+    "question": "What is garbage collection in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 154,
+    "question": "Difference between Minor GC and Major GC?",
+    "isImportant": false
+  },
+  {
+    "id": 155,
+    "question": "What is stop-the-world event?",
+    "isImportant": false
+  },
+  {
+    "id": 156,
+    "question": "Difference between CMS and G1 GC?",
+    "isImportant": false
+  },
+  {
+    "id": 157,
+    "question": "What is ZGC and Shenandoah GC?",
+    "isImportant": false
+  },
+  {
+    "id": 158,
+    "question": "What is PermGen?",
+    "isImportant": false
+  },
+  {
+    "id": 159,
+    "question": "What is Metaspace?",
+    "isImportant": false
+  },
+  {
+    "id": 160,
+    "question": "What are strong, soft, weak, phantom references?",
+    "isImportant": false
+  },
+  {
+    "id": 161,
+    "question": "What is OutOfMemoryError?",
+    "isImportant": false
+  },
+  {
+    "id": 162,
+    "question": "How to detect memory leaks?",
+    "isImportant": false
+  },
+  {
+    "id": 163,
+    "question": "What is heap dump?",
+    "isImportant": false
+  },
+  {
+    "id": 164,
+    "question": "What is thread dump?",
+    "isImportant": false
+  },
+  {
+    "id": 165,
+    "question": "What is Java Memory Model?",
+    "isImportant": false
+  },
+  {
+    "id": 166,
+    "question": "What is Singleton pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 167,
+    "question": "What is Factory pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 168,
+    "question": "What is Builder pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 169,
+    "question": "What is Prototype pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 170,
+    "question": "What is Observer pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 171,
+    "question": "What is Adapter pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 172,
+    "question": "What is Proxy pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 173,
+    "question": "What is Strategy pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 174,
+    "question": "What is Decorator pattern?",
+    "isImportant": false
+  },
+  {
+    "id": 175,
+    "question": "What is Dependency Injection principle?",
+    "isImportant": false
+  },
+  {
+    "id": 176,
+    "question": "What is Reflection API?",
+    "isImportant": false
+  },
+  {
+    "id": 177,
+    "question": "What are annotations?",
+    "isImportant": false
+  },
+  {
+    "id": 178,
+    "question": "Difference between built-in and custom annotations?",
+    "isImportant": false
+  },
+  {
+    "id": 179,
+    "question": "What is dynamic proxy in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 180,
+    "question": "What is serialization?",
+    "isImportant": false
+  },
+  {
+    "id": 181,
+    "question": "Difference between Serializable and Externalizable?",
+    "isImportant": false
+  },
+  {
+    "id": 182,
+    "question": "What is transient keyword in serialization?",
+    "isImportant": false
+  },
+  {
+    "id": 183,
+    "question": "Can we serialize static fields?",
+    "isImportant": false
+  },
+  {
+    "id": 184,
+    "question": "What is cloning in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 185,
+    "question": "Difference between shallow and deep cloning?",
+    "isImportant": false
+  },
+  {
+    "id": 186,
+    "question": "Can we clone without Cloneable?",
+    "isImportant": false
+  },
+  {
+    "id": 187,
+    "question": "What is immutability?",
+    "isImportant": false
+  },
+  {
+    "id": 188,
+    "question": "How to create immutable objects?",
+    "isImportant": false
+  },
+  {
+    "id": 189,
+    "question": "What is covariant return type?",
+    "isImportant": false
+  },
+  {
+    "id": 190,
+    "question": "Difference between static binding and dynamic binding?",
+    "isImportant": false
+  },
+  {
+    "id": 191,
+    "question": "Difference between upcasting and downcasting?",
+    "isImportant": false
+  },
+  {
+    "id": 192,
+    "question": "What is instanceof operator?",
+    "isImportant": false
+  },
+  {
+    "id": 193,
+    "question": "Can we override static methods?",
+    "isImportant": false
+  },
+  {
+    "id": 194,
+    "question": "Can we override private methods?",
+    "isImportant": false
+  },
+  {
+    "id": 195,
+    "question": "Can constructors be inherited?",
+    "isImportant": false
+  },
+  {
+    "id": 196,
+    "question": "Can we use super in constructor?",
+    "isImportant": false
+  },
+  {
+    "id": 197,
+    "question": "What is method hiding in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 198,
+    "question": "What is varargs in Java?",
+    "isImportant": false
+  },
+  {
+    "id": 199,
+    "question": "Difference between String.valueOf() and toString()?",
+    "isImportant": false
+  },
+  {
+    "id": 200,
+    "question": "Why is Java not 100% object-oriented?",
+    "isImportant": false
+  }
+]
