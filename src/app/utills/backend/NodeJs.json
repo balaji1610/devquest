@@ -52,7 +52,7 @@
     "question": "What are global objects in Node.js?",
     "isImportant": false
   },
-  { "id": 22, "question": "What is call function?", "isImportant": false },
+  { "id": 22, "question": "What is callback function?", "isImportant": false },
   {
     "id": 23,
     "question": "What is the difference between require and import?",
