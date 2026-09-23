@@ -85,7 +85,7 @@
   { "id": 32, "question": "What is JWT?", "isImportant": true },
   {
     "id": 33,
-    "question": "What is authentication and authorization?",
+    "question": "What is authentication and authorization ?",
     "isImportant": true
   }
 ]
