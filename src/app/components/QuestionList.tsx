@@ -7,12 +7,40 @@ import { useSelector } from "react-redux";
 import { IcategoryType } from "@/app/interface/interface";
 import Grid from "@mui/material/Grid";
 import { GoStarFill } from "react-icons/go";
+import Checkbox from '@mui/material/Checkbox';
+import { useState } from "react";
+import { BsCopy } from "react-icons/bs";
 
 export default function QuestionList() {
   const { currentQuestions } = useSelector(
     (state: { Category: IcategoryType }) => state.Category
   );
+  const label = { slotProps: { input: { 'aria-label': 'Checkbox demo' } } };
+  const [isimportantQuestion, setIsimportantQuestion] = useState(currentQuestions)
+  const handleOnImportantQonly = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (event.target.checked) {
+      setIsimportantQuestion((prev) => {
+        return prev.filter((el) => {
+          return el.isImportant === event.target.checked
+        })
+      })
+    } else {
+      setIsimportantQuestion(currentQuestions)
+    }
+  }
+  const handleCopy = async () => {
+    try {
+      const copyQuestion: { Q: number; Question: string; }[] = isimportantQuestion.map((el, index) => {
+        return { Q: index + 1, Question: el.question }
+      })
+      await navigator.clipboard.writeText(JSON.stringify(copyQuestion));
 
+      alert("Copied Successfully!");
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    } catch (error) {
+      alert("Unable to copy text");
+    }
+  };
   return (
     <div>
       <Grid
@@ -25,8 +53,32 @@ export default function QuestionList() {
         }}
         spacing={2}
       >
-        <Grid size={{ xs: 12, sm: 2 }}>  
-           </Grid>
+
+        <Grid size={{ xs: 12, sm: 2 }}>
+
+        </Grid>
+        <Grid size={{ xs: 12, sm: 8 }}>
+
+          <Box > <Checkbox {...label} onChange={handleOnImportantQonly} /> <GoStarFill color="#FFEB3B" /> Q-Only&nbsp;<BsCopy onClick={handleCopy} />&nbsp;Copy</Box>
+
+
+        </Grid>
+        <Grid size={{ xs: 12, sm: 2 }}></Grid>
+      </Grid>
+
+      <Grid
+        container
+        direction="row"
+        sx={{
+          justifyContent: "center",
+          alignItems: "center",
+          wrap: "wrap",
+        }}
+        spacing={2}
+      >
+        <Grid size={{ xs: 12, sm: 2 }}>
+
+        </Grid>
         <Grid size={{ xs: 12, sm: 8 }}>
           <Box
             sx={{
@@ -37,8 +89,8 @@ export default function QuestionList() {
             }}
           >
             {" "}
-            {currentQuestions.length > 0 &&
-              currentQuestions.flatMap((el) => {
+            {isimportantQuestion.length > 0 &&
+              isimportantQuestion.flatMap((el) => {
                 const { id, question, isImportant } = el;
                 return (
                   <Box
@@ -47,7 +99,7 @@ export default function QuestionList() {
                       padding: { xs: "1px", sm: "10px" },
                       border: "1px solid #E9E9E9",
                       backgroundColor: "#ffffff",
-                      borderRadius:"16px",
+                      borderRadius: "16px",
                       margin: "10px",
                       fontSize: { xs: "20px", sm: "30px" },
 
@@ -55,7 +107,7 @@ export default function QuestionList() {
                     key={id}
                   >
                     <Stack direction="row" spacing={2}>
-                      <Box sx={{padding: "0px 10px",backgroundColor: "#ededed", color: "#52a9ff",borderRadius:"10px"}}>{id}</Box>
+                      <Box sx={{ padding: "0px 10px", backgroundColor: "#ededed", color: "#52a9ff", borderRadius: "10px" }}>{id}</Box>
 
                       <Box>{question}</Box>
                       <Box>
