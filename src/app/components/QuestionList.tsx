@@ -25,7 +25,8 @@ export default function QuestionList() {
         }}
         spacing={2}
       >
-        <Grid size={{ xs: 12, sm: 2 }}></Grid>
+        <Grid size={{ xs: 12, sm: 2 }}>  
+           </Grid>
         <Grid size={{ xs: 12, sm: 8 }}>
           <Box
             sx={{
@@ -46,15 +47,15 @@ export default function QuestionList() {
                       padding: { xs: "1px", sm: "10px" },
                       border: "1px solid #E9E9E9",
                       backgroundColor: "#ffffff",
-                      borderLeft: "3px solid #03A9F4",
+                      borderRadius:"16px",
                       margin: "10px",
-                      boxShadow: "1px 1px #03a9f473",
                       fontSize: { xs: "20px", sm: "30px" },
+
                     }}
                     key={id}
                   >
                     <Stack direction="row" spacing={2}>
-                      <Box>{id}</Box>
+                      <Box sx={{padding: "0px 10px",backgroundColor: "#ededed", color: "#52a9ff",borderRadius:"10px"}}>{id}</Box>
 
                       <Box>{question}</Box>
                       <Box>
