@@ -30,10 +30,11 @@ export default function QuestionList() {
   }
   const handleCopy = async () => {
     try {
-      const copyQuestion: { Q: number; Question: string; }[] = isimportantQuestion.map((el, index) => {
-        return { Q: index + 1, Question: el.question }
-      })
-      await navigator.clipboard.writeText(JSON.stringify(copyQuestion));
+      const copyQuestion = isimportantQuestion.map((el, index) => {
+        return `${index + 1}. ${el.question}`
+      }).join("\n")
+      
+      await navigator.clipboard.writeText(copyQuestion);
 
       alert("Copied Successfully!");
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
