@@ -7,16 +7,20 @@ import { useSelector } from "react-redux";
 import { IcategoryType } from "@/app/interface/interface";
 import Grid from "@mui/material/Grid";
 import { GoStarFill } from "react-icons/go";
-import Checkbox from '@mui/material/Checkbox';
+import Button from '@mui/material/Button';
 import { useState } from "react";
 import { BsCopy } from "react-icons/bs";
+import Switch from '@mui/material/Switch';
+
 
 export default function QuestionList() {
   const { currentQuestions } = useSelector(
     (state: { Category: IcategoryType }) => state.Category
   );
-  const label = { slotProps: { input: { 'aria-label': 'Checkbox demo' } } };
+
+  const label = { slotProps: { input: { 'aria-label': 'Switch demo' } } };
   const [isimportantQuestion, setIsimportantQuestion] = useState(currentQuestions)
+
   const handleOnImportantQonly = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.checked) {
       setIsimportantQuestion((prev) => {
@@ -33,7 +37,7 @@ export default function QuestionList() {
       const copyQuestion = isimportantQuestion.map((el, index) => {
         return `${index + 1}. ${el.question}`
       }).join("\n")
-      
+
       await navigator.clipboard.writeText(copyQuestion);
 
       alert("Copied Successfully!");
@@ -60,7 +64,9 @@ export default function QuestionList() {
         </Grid>
         <Grid size={{ xs: 12, sm: 8 }}>
 
-          <Box > <Checkbox {...label} onChange={handleOnImportantQonly} /> <GoStarFill color="#FFEB3B" /> Q-Only&nbsp;<BsCopy onClick={handleCopy} />&nbsp;Copy</Box>
+          <Box > <Switch  {...label} onChange={handleOnImportantQonly} /> Q-Only &nbsp;&nbsp;<Button variant="outlined" onClick={handleCopy} startIcon={<BsCopy />}>
+            Copy
+          </Button></Box>
 
 
         </Grid>
