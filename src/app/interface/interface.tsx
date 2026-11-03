@@ -2,6 +2,7 @@ export interface IquestionsType {
   id: string;
   question: string;
   isImportant: boolean;
+  answer?: string;
 }
 
 export interface IapplicationType {

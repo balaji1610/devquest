@@ -2,7 +2,7 @@
 
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
-
+import * as React from 'react';
 import { useSelector } from "react-redux";
 import { IcategoryType, IquestionsType } from "@/app/interface/interface";
 import Grid from "@mui/material/Grid";
@@ -12,6 +12,12 @@ import { useState } from "react";
 import { BsCopy } from "react-icons/bs";
 import Switch from '@mui/material/Switch';
 import Slider from '@mui/material/Slider';
+import Accordion from '@mui/material/Accordion';
+
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function QuestionList() {
   const { currentQuestions } = useSelector(
@@ -117,7 +123,7 @@ export default function QuestionList() {
             {" "}
             {
               (isRanger ? rangerQuestions : isimportantQuestion).flatMap((el) => {
-                const { id, question, isImportant } = el;
+                const { id, question, isImportant, answer } = el;
                 return (
                   <Box
                     sx={{
@@ -133,18 +139,52 @@ export default function QuestionList() {
                     key={id}
                   >
                     <Stack direction="row" spacing={2}>
-                      <Box sx={{ padding: "0px 10px", backgroundColor: "#ededed", color: "#52a9ff", borderRadius: "10px" }}>{id}</Box>
+                      <Box sx={{ padding: "0px 10px", color: "#52a9ff" }}>{id}</Box>
 
-                      <Box>{question}</Box>
-                      <Box>
-                        {isImportant ? (
-                          <>
-                            <GoStarFill color="#FFEB3B" />
-                          </>
-                        ) : (
-                          ""
-                        )}
-                      </Box>
+                      <Box>  <Accordion>
+                        <AccordionSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls={`${id}-panel1-content`}
+                          id={`${id}-panel1-header`}
+                        >
+                          <Typography variant="h6" sx={{
+                            fontFamily: "'Inter', system-ui, sans-serif",
+                            fontWeight: 600,
+                            color: '#0f172a',
+                            letterSpacing: '-0.02em',
+                            mb: 1.5,
+                          }}>{question}</Typography>
+                          &nbsp;
+                          <Box>
+                            {isImportant ? (
+                              <>
+                                <GoStarFill fontSize="20px" color="#FFEB3B" />
+                              </>
+                            ) : (
+                              ""
+                            )}
+                          </Box>
+                        </AccordionSummary>
+                        {answer?.length ? <AccordionDetails sx={{
+                          fontFamily: "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+                          fontSize: '1rem',
+                          fontWeight: 400,
+                          lineHeight: 1.7,
+                          letterSpacing: '-0.011em',
+                          color: '#000000',
+                          bgcolor: '#ffffff',
+                          border: '1px solid #e2e8f0',
+                          borderRadius: '12px',
+                          p: 3,
+                        }}>
+                          {answer}
+                        </AccordionDetails> : <AccordionDetails>
+                          {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's"}
+                        </AccordionDetails>}
+
+                      </Accordion></Box>
+
+
                     </Stack>
                   </Box>
                 );
@@ -152,7 +192,7 @@ export default function QuestionList() {
           </Box>
         </Grid>
         <Grid size={{ xs: 12, sm: 2 }}></Grid>
-      </Grid>
-    </div>
+      </Grid >
+    </div >
   );
 }

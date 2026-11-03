@@ -1,280 +1,494 @@
 [
-  { "id": 1, "question": "What is JavaScript?", "isImportant": true },
-  { "id": 2, "question": "What is Call Stack and Heap?", "isImportant": false },
-  { "id": 3, "question": "What is JavaScript Engine?", "isImportant": false },
-  { "id": 4, "question": "What is DOM?", "isImportant": true },
-  { "id": 5, "question": "What is DOM Events?", "isImportant": false },
-  { "id": 6, "question": "What is Virtual DOM?", "isImportant": true },
+  {
+    "id": 1,
+    "question": "What is JavaScript?",
+    "isImportant": true,
+    "answer": ""
+  },
+  {
+    "id": 2,
+    "question": "What is Call Stack and Heap?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 3,
+    "question": "What is JavaScript Engine?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 4,
+    "question": "What is DOM?",
+    "isImportant": true,
+    "answer": ""
+  },
+  {
+    "id": 5,
+    "question": "What is DOM Events?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 6,
+    "question": "What is Virtual DOM?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 7,
     "question": "What is Difference between Real DOM and Virtual DOM?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 8,
     "question": "What are the Operators in JavaScript?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 9,
     "question": "What is Postfix and Prefix Operator?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 10,
     "question": "What is Special Operators in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 11, "question": "What is Ternary Operator?", "isImportant": false },
+  {
+    "id": 11,
+    "question": "What is Ternary Operator?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 12,
     "question": "What is Spread Operator and Rest Operator?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 13,
     "question": "What is Nullish coalescing Operator?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 14, "question": "What is If Else Condition?", "isImportant": false },
-  { "id": 15, "question": "What is Switch Condition?", "isImportant": false },
-  { "id": 16, "question": "What is Loop?", "isImportant": false },
-  { "id": 17, "question": "What is while and do-while?", "isImportant": false },
-  { "id": 18, "question": "What is for loop?", "isImportant": false },
-  { "id": 19, "question": "What is for of and for in?", "isImportant": false },
+  {
+    "id": 14,
+    "question": "What is If Else Condition?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 15,
+    "question": "What is Switch Condition?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 16,
+    "question": "What is Loop?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 17,
+    "question": "What is while and do-while?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 18,
+    "question": "What is for loop?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 19,
+    "question": "What is for of and for in?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 20,
     "question": "What is break and continue loop?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 21, "question": "What is return keyword?", "isImportant": false },
+  {
+    "id": 21,
+    "question": "What is return keyword?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 22,
     "question": "What is try and catch and finally?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 23, "question": "What is throw keyword?", "isImportant": false },
-  { "id": 24, "question": "What are data types in JS?", "isImportant": true },
-  { "id": 25, "question": "What is function?", "isImportant": false },
+  {
+    "id": 23,
+    "question": "What is throw keyword?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 24,
+    "question": "What are data types in JS?",
+    "isImportant": true,
+    "answer": ""
+  },
+  {
+    "id": 25,
+    "question": "What is function?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 26,
     "question": "How to check data type in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 27,
     "question": "What is difference between var, let, and const?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 28, "question": "What is hoisting?", "isImportant": true },
+  {
+    "id": 28,
+    "question": "What is hoisting?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 29,
     "question": "What is scope and what are types here?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 30,
     "question": "What is difference between global scope, local scope, and block scope?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 31,
     "question": "What is object methods here in JS?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 32,
     "question": "What is Object keys, values, entries, assign, create, delete, freeze and seal?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 33, "question": "What is array methods in JS?", "isImportant": true },
+  {
+    "id": 33,
+    "question": "What is array methods in JS?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 34,
     "question": "What is difference between slice and splice?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 35,
     "question": "What is difference between map, filter, and forEach?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 36,
     "question": "What is push, unshift, pop, shift?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 37, "question": "What is some and every?", "isImportant": false },
+  {
+    "id": 37,
+    "question": "What is some and every?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 38,
     "question": "What is flat() and flatMap()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 39,
     "question": "What is string methods here in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 40,
     "question": "What is indexOf() and lastIndexOf()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 41,
     "question": "What is slice() and splice()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 42,
     "question": "What is padStart() and padEnd()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 43,
     "question": "What is startsWith() and endsWith()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 44,
     "question": "What are number methods in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 45, "question": "What is isNaN()?", "isImportant": false },
+  {
+    "id": 45,
+    "question": "What is isNaN()?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 46,
     "question": "What is parseInt() and parseFloat()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 47,
     "question": "What is isFinite() and toFixed()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 48,
     "question": "What is Number() method in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 49,
     "question": "What are Math methods in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 50,
     "question": "What is Math.max() and Math.min() in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 51,
     "question": "What is Math.sign(), Math.trunc(), and Math.abs()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 52,
     "question": "What is Math.floor(), Math.round(), and Math.ceil()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 53,
     "question": "What is function and function methods in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 54,
     "question": "What is function expression and function declaration?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 55, "question": "What is arrow function?", "isImportant": true },
-  { "id": 56, "question": "What is callback function?", "isImportant": false },
-  { "id": 57, "question": "What is closure?", "isImportant": true },
+  {
+    "id": 55,
+    "question": "What is arrow function?",
+    "isImportant": true,
+    "answer": ""
+  },
+  {
+    "id": 56,
+    "question": "What is callback function?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 57,
+    "question": "What is closure?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 58,
     "question": "What is call(), apply(), and bind()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 59, "question": "What is recursion?", "isImportant": true },
+  {
+    "id": 59,
+    "question": "What is recursion?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 60,
     "question": "What is difference between synchronous and asynchronous?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 61,
     "question": "What is promise and methods in JS?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 62,
     "question": "What is async and await in JS?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 63,
     "question": "What is difference between promise and async & await?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 64,
     "question": "What is difference between callback and promise?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 65, "question": "What is callback hell?", "isImportant": false },
+  {
+    "id": 65,
+    "question": "What is callback hell?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 66,
     "question": "What is setTimeout() and setInterval()?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 67,
     "question": "What is localStorage, sessionStorage, and cookie?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 68, "question": "What is JSON?", "isImportant": false },
+  {
+    "id": 68,
+    "question": "What is JSON?",
+    "isImportant": false,
+    "answer": ""
+  },
   {
     "id": 69,
     "question": "What is difference between JSON.parse() and JSON.stringify()?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
-  { "id": 70, "question": "What is REST API?", "isImportant": true },
+  {
+    "id": 70,
+    "question": "What is REST API?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 71,
     "question": "What are HTTP Methods in REST API?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 72,
     "question": "What is difference between fetch() and axios()?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
-  { "id": 73, "question": "What is CORS?", "isImportant": true },
+  {
+    "id": 73,
+    "question": "What is CORS?",
+    "isImportant": true,
+    "answer": ""
+  },
   {
     "id": 74,
     "question": "What are HTTP status codes in JS?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 75,
     "question": "What is single threading and multi threading?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 76,
     "question": "Why doesn’t JavaScript support multithreading?",
-    "isImportant": false
+    "isImportant": false,
+    "answer": ""
   },
   {
     "id": 77,
     "question": "What is difference between shallow copy and deep copy?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
   {
     "id": 78,
     "question": "What is difference between mutable and immutable?",
-    "isImportant": true
+    "isImportant": true,
+    "answer": ""
   },
-  { "id": 79, "question": "What is temporal dead zone?", "isImportant": true },
-  { "id": 80, "question": "What is lexical scoping?", "isImportant": true },
-  { "id": 81, "question": "What is dynamic scoping?", "isImportant": false },
-  { "id": 82, "question": "What is web API?", "isImportant": true }
+  {
+    "id": 79,
+    "question": "What is temporal dead zone?",
+    "isImportant": true,
+    "answer": ""
+  },
+  {
+    "id": 80,
+    "question": "What is lexical scoping?",
+    "isImportant": true,
+    "answer": ""
+  },
+  {
+    "id": 81,
+    "question": "What is dynamic scoping?",
+    "isImportant": false,
+    "answer": ""
+  },
+  {
+    "id": 82,
+    "question": "What is web API?",
+    "isImportant": true,
+    "answer": ""
+  }
 ]
