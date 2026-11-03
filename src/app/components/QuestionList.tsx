@@ -4,14 +4,14 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 
 import { useSelector } from "react-redux";
-import { IcategoryType } from "@/app/interface/interface";
+import { IcategoryType, IquestionsType } from "@/app/interface/interface";
 import Grid from "@mui/material/Grid";
 import { GoStarFill } from "react-icons/go";
 import Button from '@mui/material/Button';
 import { useState } from "react";
 import { BsCopy } from "react-icons/bs";
 import Switch from '@mui/material/Switch';
-
+import Slider from '@mui/material/Slider';
 
 export default function QuestionList() {
   const { currentQuestions } = useSelector(
@@ -20,7 +20,20 @@ export default function QuestionList() {
 
   const label = { slotProps: { input: { 'aria-label': 'Switch demo' } } };
   const [isimportantQuestion, setIsimportantQuestion] = useState(currentQuestions)
+  const [value, setValue] = useState<number[]>([1, isimportantQuestion.length]);
+  const [isRanger, setIsRanger] = useState<boolean>(false);
+  const [rangerQuestions, setRangerQuestions] = useState<IquestionsType[]>([])
 
+  const handleChange = (event: Event, newValue: number[]) => {
+
+    if (newValue.length) {
+      setIsRanger(true)
+    }
+    setValue(newValue);
+    const isGetQuestion: IquestionsType[] = isimportantQuestion.slice(newValue[0], newValue[1])
+    setRangerQuestions(isGetQuestion)
+
+  };
   const handleOnImportantQonly = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.checked) {
       setIsimportantQuestion((prev) => {
@@ -34,9 +47,9 @@ export default function QuestionList() {
   }
   const handleCopy = async () => {
     try {
-      const copyQuestion = isimportantQuestion.map((el, index) => {
-        return `${index + 1}. ${el.question}`
-      }).join("\n")
+      const copyQuestion = isRanger
+        ? rangerQuestions.map((el) => `${el.id}. ${el.question}`).join("\n")
+        : isimportantQuestion.map((el) => `${el.id}. ${el.question}`).join("\n");
 
       await navigator.clipboard.writeText(copyQuestion);
 
@@ -63,10 +76,16 @@ export default function QuestionList() {
 
         </Grid>
         <Grid size={{ xs: 12, sm: 8 }}>
-
-          <Box > <Switch  {...label} onChange={handleOnImportantQonly} /> Q-Only &nbsp;&nbsp;<Button variant="outlined" onClick={handleCopy} startIcon={<BsCopy />}>
+          <Box> <Switch  {...label} onChange={handleOnImportantQonly} /> Q-Only &nbsp;&nbsp;<Button variant="outlined" onClick={handleCopy} startIcon={<BsCopy />}>
             Copy
-          </Button></Box>
+          </Button>  <Slider
+              getAriaLabel={() => 'Temperature range'}
+              value={value}
+              onChange={handleChange}
+              valueLabelDisplay="auto"
+              max={isimportantQuestion.length}
+              min={1}
+            /></Box>
 
 
         </Grid>
@@ -96,8 +115,8 @@ export default function QuestionList() {
             }}
           >
             {" "}
-            {isimportantQuestion.length > 0 &&
-              isimportantQuestion.flatMap((el) => {
+            {
+              (isRanger ? rangerQuestions : isimportantQuestion).flatMap((el) => {
                 const { id, question, isImportant } = el;
                 return (
                   <Box
